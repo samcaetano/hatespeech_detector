@@ -1,3 +1,5 @@
+# This is a sample on loading the pretrained models and evaluating prediction in batches on these models 
+
 from __future__ import print_function
 import tensorflow as tf
 import numpy as np
