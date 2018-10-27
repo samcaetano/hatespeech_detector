@@ -107,7 +107,7 @@ def train_neural_net():
 			for epoch in range(hm_epochs):
 				epoch_loss = 0
 				i = 0
-				while i < len(train_x[train]):#for _ in range(int(mnist.train.num_examples/batch_size)):
+				while i < len(train_x[train]):
 					start = i
 					end = i + batch_size
 					batch_x = np.array(train_x[train][start:end])
