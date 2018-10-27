@@ -187,9 +187,3 @@ def create_feature_sets_and_labels(dataset, embed_method, test_size=0.1):
     test_y = list(features[:, 1][-testing_size:])
 
     return train_x, train_y, test_x, test_y, lexicon, embed
-
-#x, y, xt, yt, lexicon, embed = create_feature_sets_and_labels(dataset='OffComBR3.arff',
-#                                embed_method='glove', test_size=0.1)
-#print np.array(x).shape, np.array(y).shape
-#print np.array(xt).shape, np.array(yt).shape
-#print embed.shape
