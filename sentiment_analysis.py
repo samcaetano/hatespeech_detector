@@ -253,6 +253,6 @@ def convolutional_network_model():
 	return scores, keep_prob
 
 s = timeit.default_timer()
-#train_neural_net()
+train_neural_net()
 e = timeit.default_timer()
 print('Total time {}s'.format(e-s))
